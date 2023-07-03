@@ -11,7 +11,7 @@ cube_dist=10
 # set number of clusters for clustering (and thus the number of predictions in final pdb for docking)
 n_clust=5
 
-rec_pdb=testdir/*.pdb
+rec_pdb=$prediction_dir/*.pdb
 
 # remove hetatms from rec pdb
 python rmv_hetatms.py $rec_pdb

@@ -5,13 +5,13 @@
 # FILL IN prediction_dir, cube_dist, and n_clust
 
 # set directory where the diffdock predictions and receptor pdb live
-prediction_dir=$PWD/
+prediction_dir=$PWD/testdir
 
 # set size of cube (distance in either direction from center of cube)
-cube_dist=
+cube_dist=10
 
 # set number of clusters for clustering (and thus the number of predictions in final pdb for docking)
-n_clust=
+n_clust=3
 
 parent_dir=$PWD
 

@@ -4,6 +4,8 @@
 
 # set dir where all sdf predictions live
 pred_dir=$1
+parent_dir=$2
+
 cd $pred_dir
 cd rank1_cube_preds
 
@@ -13,4 +15,4 @@ do
    	obabel $line -O $out
 done
 
-cd ../../
+cd $parent_dir

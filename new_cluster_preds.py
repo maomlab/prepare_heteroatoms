@@ -55,8 +55,11 @@ prediction_names = []
 # prepare coordinates of each prediction for clustering
 for sdf in glob.glob('*.sdf'):
     pred_name, pred_coords = get_coords(sdf)
-    prediction_names.append(pred_name)
-    prediction_coords.append(pred_coords)
+    if len(pred_coords) == 0:
+        continue
+    else:
+        prediction_names.append(pred_name)
+        prediction_coords.append(pred_coords)
 
 prediction_coords = np.array(prediction_coords)
 

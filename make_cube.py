@@ -5,6 +5,7 @@ import csv
 import shutil
 import os
 import glob
+import pdb
 
 # gets all the predictions that are within a cube of x distance from the middle of prediction 1 and copies them to directory called rank1_cube_preds
 
@@ -52,9 +53,33 @@ def get_coords(pred_sdf):
     
     for line in coord_lines:
         coords = line.split()
-        x.append(float(coords[0]))
-        y.append(float(coords[1]))
-        z.append(float(coords[2]))
+
+        x_co = coords[0]
+        y_co = coords[1]
+        z_co = coords[2]
+
+        x_split = x_co.split(sep='-')
+        y_split = y_co.split(sep='-')
+        z_split = z_co.split(sep='_')
+
+        if len(x_split) > 1:
+            x_co = x_split[1]
+        else:
+            x_co = x_co
+
+        if len(y_split) > 1:
+            y_co = y_split[1]
+        else:
+            y_co = y_co
+
+        if len(z_split) > 1:
+            z_co = z_split[1]
+        else:
+            z_co = z_co
+
+        x.append(float(x_co))
+        y.append(float(y_co))
+        z.append(float(z_co))
 
     return x,y,z
 

@@ -1,42 +1,52 @@
 #!/bin/bash
-
 ###########################
 
 #added some boring command line argument passing stuff -ml 
 SCRIPT_NAME=$(basename "$0")
-while  getopts p:c:n FLAG
+while  getopts p:c:s:n FLAG
 do
 
     case "${FLAG}" in
 	p) prediction_dir=${OPTARG};;
 	c) cube_dist=${OPTARG};;
-	d) n_clust=${OPTARG};;
+	s) score_type=${OPTARG};;
+	n) n_clust=${OPTARG};;
     esac
 done
 
-if [ -z ${prediction_dir} ]
-then
+if [ -z ${prediction_dir} ]; then
     echo "${SCRIPT_NAME}: ERROR: no prediction directory given exiting..."
     exit
 fi
 
-if [ -z ${cube_dist} ]
-then
+if [ -z ${cube_dist} ]; then
     echo "${SCRIPT_NAME}: WARNING: cube_dist variable is empty. defaulting to 5"
     cube_dist=5
 fi
 
-if [ -z ${n_clust} ]
-then
+if [ -z ${n_clust} ]; then
     echo "${SCRIPT_NAME}: WARNING: n_clust variable is empty. defaulting to 3"
     n_clust=3
 fi
+
+if [ -z ${score_type} ]; then
+    echo "${SCRIPT_NAME}: WARNING: score_type variable is empty. defaulting to DD_Con"
+    score_type="DD_con"
+fi
+if [[ "${score_type}" == "DDcon" || "${score_type}" ==  "SMINA" ]]; then
+    continue
+else
+    echo "${SCRIPT_NAME}: WARNING: score_type '${score_type}' invalid. defaulting to DD_con"
+    score_type="DD_con"
+fi
+
+    
 
 echo "${SCRIPT_NAME}: LOG: Preparing HetAtoms with the following parameters: "
 echo "prediciton_dir: ${prediction_dir}"
 echo "cube_dist: ${cube_dist}"
 echo "n_clust: ${n_clust}"
-
+echo "score_type: ${score_type}"
 ##########################
 # prepare pdb with rec atoms and lig hetatoms for docking pdb ready for docking called 'prepared_struct.pdb' in prediction_dir
 
@@ -55,6 +65,22 @@ parent_dir=$(readlink -f $0 | xargs dirname)
 
 rec_pdb=$prediction_dir/*.pdb
 
+#IF CHOSEN SMINA USE SMINA DIRECTORY OR CALCULATE SMINA SCORES...
+if [ "${score_type}" == "SMINA" ]; then
+    if [ -d "${prediction_dir}/SMINA_rerank" ]; then
+	new_dir=${prediction_dir}/SMINA_rerank
+	prediction_dir=${new_dir}
+    else
+	echo "${SCRIPT_NAME}: calculating binding affinity with smina... "
+	source ${parent_dir}/smina_rescore.sh -d ${prediction_dir}
+	new_dir=${prediction_dir}/SMINA_rerank
+	prediction_dir=${new_dir}
+    fi
+elif [ "${score_type}" == "DDcon" ]; then
+    prediction_dir=${prediction_dir}
+fi
+
+echo "Now using ${prediction_dir}"
 # remove hetatms from rec pdb
 python $parent_dir/rmv_hetatms.py $rec_pdb
 

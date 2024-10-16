@@ -1,0 +1,7 @@
+#!/bin/bash
+
+test_fnc() {
+	 echo "test this"
+}
+
+test_fnc

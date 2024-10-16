@@ -1,0 +1,1314 @@
+PROJ_PATH is /home/limcaoco/opt/prepare_heteroatoms/testdir
+For any bugs please contact: Jose Miguel Limcaoco @ limcaoco@umich.edu
+DIFFDOCK_PROBE_WIZARD: Done Prepping results...
+DIFFDOCK_PROBE_WIZARD: PB calculations...
+Processing file: /home/limcaoco/opt/prepare_heteroatoms/testdir/posebuster_results//posebust_results.csv
+DIFFDOCK_PROBE_WIZARD: SMINA Calculations and clustering...
+prepare_hetatms.sh: LOG: Preparing HetAtoms with the following parameters: 
+prediciton_dir: /home/limcaoco/opt/prepare_heteroatoms/testdir/outputs/diffdock_output/cleaned_probes
+cube_dist: 10
+n_clust: 4
+score_type: SMINA
+prepare_hetatms.sh: calculating binding affinity with smina... 
+/home/limcaoco/opt/prepare_heteroatoms/testdir/outputs/diffdock_output/cleaned_probes
+/home/limcaoco/opt/prepare_heteroatoms/testdir/outputs/diffdock_output/cleaned_probes/rank10_confidence-2.97_IDZ.sdf
+   _______  _______ _________ _        _______ 
+  (  ____ \(       )\__   __/( (    /|(  ___  )
+  | (    \/| () () |   ) (   |  \  ( || (   ) |
+  | (_____ | || || |   | |   |   \ | || (___) |
+  (_____  )| |(_)| |   | |   | (\ \) ||  ___  |
+        ) || |   | |   | |   | | \   || (   ) |
+  /\____) || )   ( |___) (___| )  \  || )   ( |
+  \_______)|/     \|\_______/|/    )_)|/     \|
+
+
+smina is based off AutoDock Vina. Please cite appropriately.
+
+Weights      Terms
+-0.035579    gauss(o=0,_w=0.5,_c=8)
+-0.005156    gauss(o=3,_w=2,_c=8)
+0.840245     repulsion(o=0,_c=8)
+-0.035069    hydrophobic(g=0.5,_b=1.5,_c=8)
+-0.587439    non_dir_h_bond(g=-0.7,_b=0,_c=8)
+1.923        num_tors_div
+
+Affinity: -1.58841  0.00000 (kcal/mol)
+RMSD: 4.33331
+Refine time 0.00792
+Loop time 0.00827
+/home/limcaoco/opt/prepare_heteroatoms/testdir/outputs/diffdock_output/cleaned_probes/rank1_BEN.sdf
+   _______  _______ _________ _        _______ 
+  (  ____ \(       )\__   __/( (    /|(  ___  )
+  | (    \/| () () |   ) (   |  \  ( || (   ) |
+  | (_____ | || || |   | |   |   \ | || (___) |
+  (_____  )| |(_)| |   | |   | (\ \) ||  ___  |
+        ) || |   | |   | |   | | \   || (   ) |
+  /\____) || )   ( |___) (___| )  \  || )   ( |
+  \_______)|/     \|\_______/|/    )_)|/     \|
+
+
+smina is based off AutoDock Vina. Please cite appropriately.
+
+Weights      Terms
+-0.035579    gauss(o=0,_w=0.5,_c=8)
+-0.005156    gauss(o=3,_w=2,_c=8)
+0.840245     repulsion(o=0,_c=8)
+-0.035069    hydrophobic(g=0.5,_b=1.5,_c=8)
+-0.587439    non_dir_h_bond(g=-0.7,_b=0,_c=8)
+1.923        num_tors_div
+
+Affinity: -3.07544  0.00000 (kcal/mol)
+RMSD: 1.39159
+Refine time 0.00225
+Loop time 0.00255
+/home/limcaoco/opt/prepare_heteroatoms/testdir/outputs/diffdock_output/cleaned_probes/rank1_CHX.sdf
+   _______  _______ _________ _        _______ 
+  (  ____ \(       )\__   __/( (    /|(  ___  )
+  | (    \/| () () |   ) (   |  \  ( || (   ) |
+  | (_____ | || || |   | |   |   \ | || (___) |
+  (_____  )| |(_)| |   | |   | (\ \) ||  ___  |
+        ) || |   | |   | |   | | \   || (   ) |
+  /\____) || )   ( |___) (___| )  \  || )   ( |
+  \_______)|/     \|\_______/|/    )_)|/     \|
+
+
+smina is based off AutoDock Vina. Please cite appropriately.
+
+Weights      Terms
+-0.035579    gauss(o=0,_w=0.5,_c=8)
+-0.005156    gauss(o=3,_w=2,_c=8)
+0.840245     repulsion(o=0,_c=8)
+-0.035069    hydrophobic(g=0.5,_b=1.5,_c=8)
+-0.587439    non_dir_h_bond(g=-0.7,_b=0,_c=8)
+1.923        num_tors_div
+
+Affinity: -3.22458  0.00000 (kcal/mol)
+RMSD: 1.57644
+Refine time 0.00229
+Loop time 0.00261
+/home/limcaoco/opt/prepare_heteroatoms/testdir/outputs/diffdock_output/cleaned_probes/rank1_IDZ.sdf
+   _______  _______ _________ _        _______ 
+  (  ____ \(       )\__   __/( (    /|(  ___  )
+  | (    \/| () () |   ) (   |  \  ( || (   ) |
+  | (_____ | || || |   | |   |   \ | || (___) |
+  (_____  )| |(_)| |   | |   | (\ \) ||  ___  |
+        ) || |   | |   | |   | | \   || (   ) |
+  /\____) || )   ( |___) (___| )  \  || )   ( |
+  \_______)|/     \|\_______/|/    )_)|/     \|
+
+
+smina is based off AutoDock Vina. Please cite appropriately.
+
+Weights      Terms
+-0.035579    gauss(o=0,_w=0.5,_c=8)
+-0.005156    gauss(o=3,_w=2,_c=8)
+0.840245     repulsion(o=0,_c=8)
+-0.035069    hydrophobic(g=0.5,_b=1.5,_c=8)
+-0.587439    non_dir_h_bond(g=-0.7,_b=0,_c=8)
+1.923        num_tors_div
+
+Affinity: -2.96800  0.00000 (kcal/mol)
+RMSD: 0.96503
+Refine time 0.00515
+Loop time 0.00546
+/home/limcaoco/opt/prepare_heteroatoms/testdir/outputs/diffdock_output/cleaned_probes/rank1_IPA.sdf
+   _______  _______ _________ _        _______ 
+  (  ____ \(       )\__   __/( (    /|(  ___  )
+  | (    \/| () () |   ) (   |  \  ( || (   ) |
+  | (_____ | || || |   | |   |   \ | || (___) |
+  (_____  )| |(_)| |   | |   | (\ \) ||  ___  |
+        ) || |   | |   | |   | | \   || (   ) |
+  /\____) || )   ( |___) (___| )  \  || )   ( |
+  \_______)|/     \|\_______/|/    )_)|/     \|
+
+
+smina is based off AutoDock Vina. Please cite appropriately.
+
+Weights      Terms
+-0.035579    gauss(o=0,_w=0.5,_c=8)
+-0.005156    gauss(o=3,_w=2,_c=8)
+0.840245     repulsion(o=0,_c=8)
+-0.035069    hydrophobic(g=0.5,_b=1.5,_c=8)
+-0.587439    non_dir_h_bond(g=-0.7,_b=0,_c=8)
+1.923        num_tors_div
+
+Affinity: -2.46526  0.00000 (kcal/mol)
+RMSD: 1.28330
+Refine time 0.00425
+Loop time 0.00455
+/home/limcaoco/opt/prepare_heteroatoms/testdir/outputs/diffdock_output/cleaned_probes/rank1_PYR.sdf
+   _______  _______ _________ _        _______ 
+  (  ____ \(       )\__   __/( (    /|(  ___  )
+  | (    \/| () () |   ) (   |  \  ( || (   ) |
+  | (_____ | || || |   | |   |   \ | || (___) |
+  (_____  )| |(_)| |   | |   | (\ \) ||  ___  |
+        ) || |   | |   | |   | | \   || (   ) |
+  /\____) || )   ( |___) (___| )  \  || )   ( |
+  \_______)|/     \|\_______/|/    )_)|/     \|
+
+
+smina is based off AutoDock Vina. Please cite appropriately.
+
+Weights      Terms
+-0.035579    gauss(o=0,_w=0.5,_c=8)
+-0.005156    gauss(o=3,_w=2,_c=8)
+0.840245     repulsion(o=0,_c=8)
+-0.035069    hydrophobic(g=0.5,_b=1.5,_c=8)
+-0.587439    non_dir_h_bond(g=-0.7,_b=0,_c=8)
+1.923        num_tors_div
+
+Affinity: -2.56164  0.00000 (kcal/mol)
+RMSD: 3.43258
+Refine time 0.01324
+Loop time 0.01356
+/home/limcaoco/opt/prepare_heteroatoms/testdir/outputs/diffdock_output/cleaned_probes/rank1_confidence-0.33_CHX.sdf
+   _______  _______ _________ _        _______ 
+  (  ____ \(       )\__   __/( (    /|(  ___  )
+  | (    \/| () () |   ) (   |  \  ( || (   ) |
+  | (_____ | || || |   | |   |   \ | || (___) |
+  (_____  )| |(_)| |   | |   | (\ \) ||  ___  |
+        ) || |   | |   | |   | | \   || (   ) |
+  /\____) || )   ( |___) (___| )  \  || )   ( |
+  \_______)|/     \|\_______/|/    )_)|/     \|
+
+
+smina is based off AutoDock Vina. Please cite appropriately.
+
+Weights      Terms
+-0.035579    gauss(o=0,_w=0.5,_c=8)
+-0.005156    gauss(o=3,_w=2,_c=8)
+0.840245     repulsion(o=0,_c=8)
+-0.035069    hydrophobic(g=0.5,_b=1.5,_c=8)
+-0.587439    non_dir_h_bond(g=-0.7,_b=0,_c=8)
+1.923        num_tors_div
+
+Affinity: -3.22458  0.00000 (kcal/mol)
+RMSD: 1.57644
+Refine time 0.00227
+Loop time 0.00257
+/home/limcaoco/opt/prepare_heteroatoms/testdir/outputs/diffdock_output/cleaned_probes/rank1_confidence-0.44_BEN.sdf
+   _______  _______ _________ _        _______ 
+  (  ____ \(       )\__   __/( (    /|(  ___  )
+  | (    \/| () () |   ) (   |  \  ( || (   ) |
+  | (_____ | || || |   | |   |   \ | || (___) |
+  (_____  )| |(_)| |   | |   | (\ \) ||  ___  |
+        ) || |   | |   | |   | | \   || (   ) |
+  /\____) || )   ( |___) (___| )  \  || )   ( |
+  \_______)|/     \|\_______/|/    )_)|/     \|
+
+
+smina is based off AutoDock Vina. Please cite appropriately.
+
+Weights      Terms
+-0.035579    gauss(o=0,_w=0.5,_c=8)
+-0.005156    gauss(o=3,_w=2,_c=8)
+0.840245     repulsion(o=0,_c=8)
+-0.035069    hydrophobic(g=0.5,_b=1.5,_c=8)
+-0.587439    non_dir_h_bond(g=-0.7,_b=0,_c=8)
+1.923        num_tors_div
+
+Affinity: -3.07544  0.00000 (kcal/mol)
+RMSD: 1.39159
+Refine time 0.00228
+Loop time 0.00259
+/home/limcaoco/opt/prepare_heteroatoms/testdir/outputs/diffdock_output/cleaned_probes/rank1_confidence0.10_IPA.sdf
+   _______  _______ _________ _        _______ 
+  (  ____ \(       )\__   __/( (    /|(  ___  )
+  | (    \/| () () |   ) (   |  \  ( || (   ) |
+  | (_____ | || || |   | |   |   \ | || (___) |
+  (_____  )| |(_)| |   | |   | (\ \) ||  ___  |
+        ) || |   | |   | |   | | \   || (   ) |
+  /\____) || )   ( |___) (___| )  \  || )   ( |
+  \_______)|/     \|\_______/|/    )_)|/     \|
+
+
+smina is based off AutoDock Vina. Please cite appropriately.
+
+Weights      Terms
+-0.035579    gauss(o=0,_w=0.5,_c=8)
+-0.005156    gauss(o=3,_w=2,_c=8)
+0.840245     repulsion(o=0,_c=8)
+-0.035069    hydrophobic(g=0.5,_b=1.5,_c=8)
+-0.587439    non_dir_h_bond(g=-0.7,_b=0,_c=8)
+1.923        num_tors_div
+
+Affinity: -2.46526  0.00000 (kcal/mol)
+RMSD: 1.28330
+Refine time 0.00422
+Loop time 0.00452
+/home/limcaoco/opt/prepare_heteroatoms/testdir/outputs/diffdock_output/cleaned_probes/rank1_confidence0.41_PYR.sdf
+   _______  _______ _________ _        _______ 
+  (  ____ \(       )\__   __/( (    /|(  ___  )
+  | (    \/| () () |   ) (   |  \  ( || (   ) |
+  | (_____ | || || |   | |   |   \ | || (___) |
+  (_____  )| |(_)| |   | |   | (\ \) ||  ___  |
+        ) || |   | |   | |   | | \   || (   ) |
+  /\____) || )   ( |___) (___| )  \  || )   ( |
+  \_______)|/     \|\_______/|/    )_)|/     \|
+
+
+smina is based off AutoDock Vina. Please cite appropriately.
+
+Weights      Terms
+-0.035579    gauss(o=0,_w=0.5,_c=8)
+-0.005156    gauss(o=3,_w=2,_c=8)
+0.840245     repulsion(o=0,_c=8)
+-0.035069    hydrophobic(g=0.5,_b=1.5,_c=8)
+-0.587439    non_dir_h_bond(g=-0.7,_b=0,_c=8)
+1.923        num_tors_div
+
+Affinity: -2.56164  0.00000 (kcal/mol)
+RMSD: 3.43258
+Refine time 0.01324
+Loop time 0.01357
+/home/limcaoco/opt/prepare_heteroatoms/testdir/outputs/diffdock_output/cleaned_probes/rank1_confidence0.82_IDZ.sdf
+   _______  _______ _________ _        _______ 
+  (  ____ \(       )\__   __/( (    /|(  ___  )
+  | (    \/| () () |   ) (   |  \  ( || (   ) |
+  | (_____ | || || |   | |   |   \ | || (___) |
+  (_____  )| |(_)| |   | |   | (\ \) ||  ___  |
+        ) || |   | |   | |   | | \   || (   ) |
+  /\____) || )   ( |___) (___| )  \  || )   ( |
+  \_______)|/     \|\_______/|/    )_)|/     \|
+
+
+smina is based off AutoDock Vina. Please cite appropriately.
+
+Weights      Terms
+-0.035579    gauss(o=0,_w=0.5,_c=8)
+-0.005156    gauss(o=3,_w=2,_c=8)
+0.840245     repulsion(o=0,_c=8)
+-0.035069    hydrophobic(g=0.5,_b=1.5,_c=8)
+-0.587439    non_dir_h_bond(g=-0.7,_b=0,_c=8)
+1.923        num_tors_div
+
+Affinity: -2.96800  0.00000 (kcal/mol)
+RMSD: 0.96503
+Refine time 0.00518
+Loop time 0.00550
+/home/limcaoco/opt/prepare_heteroatoms/testdir/outputs/diffdock_output/cleaned_probes/rank2_confidence-0.37_CHX.sdf
+   _______  _______ _________ _        _______ 
+  (  ____ \(       )\__   __/( (    /|(  ___  )
+  | (    \/| () () |   ) (   |  \  ( || (   ) |
+  | (_____ | || || |   | |   |   \ | || (___) |
+  (_____  )| |(_)| |   | |   | (\ \) ||  ___  |
+        ) || |   | |   | |   | | \   || (   ) |
+  /\____) || )   ( |___) (___| )  \  || )   ( |
+  \_______)|/     \|\_______/|/    )_)|/     \|
+
+
+smina is based off AutoDock Vina. Please cite appropriately.
+
+Weights      Terms
+-0.035579    gauss(o=0,_w=0.5,_c=8)
+-0.005156    gauss(o=3,_w=2,_c=8)
+0.840245     repulsion(o=0,_c=8)
+-0.035069    hydrophobic(g=0.5,_b=1.5,_c=8)
+-0.587439    non_dir_h_bond(g=-0.7,_b=0,_c=8)
+1.923        num_tors_div
+
+Affinity: -2.88841  0.00000 (kcal/mol)
+RMSD: 2.65897
+Refine time 0.00174
+Loop time 0.00206
+/home/limcaoco/opt/prepare_heteroatoms/testdir/outputs/diffdock_output/cleaned_probes/rank2_confidence-0.44_BEN.sdf
+   _______  _______ _________ _        _______ 
+  (  ____ \(       )\__   __/( (    /|(  ___  )
+  | (    \/| () () |   ) (   |  \  ( || (   ) |
+  | (_____ | || || |   | |   |   \ | || (___) |
+  (_____  )| |(_)| |   | |   | (\ \) ||  ___  |
+        ) || |   | |   | |   | | \   || (   ) |
+  /\____) || )   ( |___) (___| )  \  || )   ( |
+  \_______)|/     \|\_______/|/    )_)|/     \|
+
+
+smina is based off AutoDock Vina. Please cite appropriately.
+
+Weights      Terms
+-0.035579    gauss(o=0,_w=0.5,_c=8)
+-0.005156    gauss(o=3,_w=2,_c=8)
+0.840245     repulsion(o=0,_c=8)
+-0.035069    hydrophobic(g=0.5,_b=1.5,_c=8)
+-0.587439    non_dir_h_bond(g=-0.7,_b=0,_c=8)
+1.923        num_tors_div
+
+Affinity: -4.40435  0.00000 (kcal/mol)
+RMSD: 1.35569
+Refine time 0.00236
+Loop time 0.00266
+/home/limcaoco/opt/prepare_heteroatoms/testdir/outputs/diffdock_output/cleaned_probes/rank2_confidence0.23_NMA.sdf
+   _______  _______ _________ _        _______ 
+  (  ____ \(       )\__   __/( (    /|(  ___  )
+  | (    \/| () () |   ) (   |  \  ( || (   ) |
+  | (_____ | || || |   | |   |   \ | || (___) |
+  (_____  )| |(_)| |   | |   | (\ \) ||  ___  |
+        ) || |   | |   | |   | | \   || (   ) |
+  /\____) || )   ( |___) (___| )  \  || )   ( |
+  \_______)|/     \|\_______/|/    )_)|/     \|
+
+
+smina is based off AutoDock Vina. Please cite appropriately.
+
+Weights      Terms
+-0.035579    gauss(o=0,_w=0.5,_c=8)
+-0.005156    gauss(o=3,_w=2,_c=8)
+0.840245     repulsion(o=0,_c=8)
+-0.035069    hydrophobic(g=0.5,_b=1.5,_c=8)
+-0.587439    non_dir_h_bond(g=-0.7,_b=0,_c=8)
+1.923        num_tors_div
+
+Affinity: -2.92385  0.00000 (kcal/mol)
+RMSD: 0.51951
+Refine time 0.00580
+Loop time 0.00611
+/home/limcaoco/opt/prepare_heteroatoms/testdir/outputs/diffdock_output/cleaned_probes/rank2_confidence0.24_ACE.sdf
+   _______  _______ _________ _        _______ 
+  (  ____ \(       )\__   __/( (    /|(  ___  )
+  | (    \/| () () |   ) (   |  \  ( || (   ) |
+  | (_____ | || || |   | |   |   \ | || (___) |
+  (_____  )| |(_)| |   | |   | (\ \) ||  ___  |
+        ) || |   | |   | |   | | \   || (   ) |
+  /\____) || )   ( |___) (___| )  \  || )   ( |
+  \_______)|/     \|\_______/|/    )_)|/     \|
+
+
+smina is based off AutoDock Vina. Please cite appropriately.
+
+Weights      Terms
+-0.035579    gauss(o=0,_w=0.5,_c=8)
+-0.005156    gauss(o=3,_w=2,_c=8)
+0.840245     repulsion(o=0,_c=8)
+-0.035069    hydrophobic(g=0.5,_b=1.5,_c=8)
+-0.587439    non_dir_h_bond(g=-0.7,_b=0,_c=8)
+1.923        num_tors_div
+
+Affinity: -2.45648  0.00000 (kcal/mol)
+RMSD: 1.07431
+Refine time 0.00538
+Loop time 0.00567
+/home/limcaoco/opt/prepare_heteroatoms/testdir/outputs/diffdock_output/cleaned_probes/rank2_confidence0.36_PYR.sdf
+   _______  _______ _________ _        _______ 
+  (  ____ \(       )\__   __/( (    /|(  ___  )
+  | (    \/| () () |   ) (   |  \  ( || (   ) |
+  | (_____ | || || |   | |   |   \ | || (___) |
+  (_____  )| |(_)| |   | |   | (\ \) ||  ___  |
+        ) || |   | |   | |   | | \   || (   ) |
+  /\____) || )   ( |___) (___| )  \  || )   ( |
+  \_______)|/     \|\_______/|/    )_)|/     \|
+
+
+smina is based off AutoDock Vina. Please cite appropriately.
+
+Weights      Terms
+-0.035579    gauss(o=0,_w=0.5,_c=8)
+-0.005156    gauss(o=3,_w=2,_c=8)
+0.840245     repulsion(o=0,_c=8)
+-0.035069    hydrophobic(g=0.5,_b=1.5,_c=8)
+-0.587439    non_dir_h_bond(g=-0.7,_b=0,_c=8)
+1.923        num_tors_div
+
+Affinity: -2.57769  0.00000 (kcal/mol)
+RMSD: 1.53301
+Refine time 0.00502
+Loop time 0.00535
+/home/limcaoco/opt/prepare_heteroatoms/testdir/outputs/diffdock_output/cleaned_probes/rank2_confidence0.77_IDZ.sdf
+   _______  _______ _________ _        _______ 
+  (  ____ \(       )\__   __/( (    /|(  ___  )
+  | (    \/| () () |   ) (   |  \  ( || (   ) |
+  | (_____ | || || |   | |   |   \ | || (___) |
+  (_____  )| |(_)| |   | |   | (\ \) ||  ___  |
+        ) || |   | |   | |   | | \   || (   ) |
+  /\____) || )   ( |___) (___| )  \  || )   ( |
+  \_______)|/     \|\_______/|/    )_)|/     \|
+
+
+smina is based off AutoDock Vina. Please cite appropriately.
+
+Weights      Terms
+-0.035579    gauss(o=0,_w=0.5,_c=8)
+-0.005156    gauss(o=3,_w=2,_c=8)
+0.840245     repulsion(o=0,_c=8)
+-0.035069    hydrophobic(g=0.5,_b=1.5,_c=8)
+-0.587439    non_dir_h_bond(g=-0.7,_b=0,_c=8)
+1.923        num_tors_div
+
+Affinity: -2.76938  0.00000 (kcal/mol)
+RMSD: 0.61843
+Refine time 0.00485
+Loop time 0.00517
+/home/limcaoco/opt/prepare_heteroatoms/testdir/outputs/diffdock_output/cleaned_probes/rank3_confidence-0.46_BEN.sdf
+   _______  _______ _________ _        _______ 
+  (  ____ \(       )\__   __/( (    /|(  ___  )
+  | (    \/| () () |   ) (   |  \  ( || (   ) |
+  | (_____ | || || |   | |   |   \ | || (___) |
+  (_____  )| |(_)| |   | |   | (\ \) ||  ___  |
+        ) || |   | |   | |   | | \   || (   ) |
+  /\____) || )   ( |___) (___| )  \  || )   ( |
+  \_______)|/     \|\_______/|/    )_)|/     \|
+
+
+smina is based off AutoDock Vina. Please cite appropriately.
+
+Weights      Terms
+-0.035579    gauss(o=0,_w=0.5,_c=8)
+-0.005156    gauss(o=3,_w=2,_c=8)
+0.840245     repulsion(o=0,_c=8)
+-0.035069    hydrophobic(g=0.5,_b=1.5,_c=8)
+-0.587439    non_dir_h_bond(g=-0.7,_b=0,_c=8)
+1.923        num_tors_div
+
+Affinity: -3.96277  0.00000 (kcal/mol)
+RMSD: 1.40609
+Refine time 0.00197
+Loop time 0.00227
+/home/limcaoco/opt/prepare_heteroatoms/testdir/outputs/diffdock_output/cleaned_probes/rank3_confidence-0.46_CHX.sdf
+   _______  _______ _________ _        _______ 
+  (  ____ \(       )\__   __/( (    /|(  ___  )
+  | (    \/| () () |   ) (   |  \  ( || (   ) |
+  | (_____ | || || |   | |   |   \ | || (___) |
+  (_____  )| |(_)| |   | |   | (\ \) ||  ___  |
+        ) || |   | |   | |   | | \   || (   ) |
+  /\____) || )   ( |___) (___| )  \  || )   ( |
+  \_______)|/     \|\_______/|/    )_)|/     \|
+
+
+smina is based off AutoDock Vina. Please cite appropriately.
+
+Weights      Terms
+-0.035579    gauss(o=0,_w=0.5,_c=8)
+-0.005156    gauss(o=3,_w=2,_c=8)
+0.840245     repulsion(o=0,_c=8)
+-0.035069    hydrophobic(g=0.5,_b=1.5,_c=8)
+-0.587439    non_dir_h_bond(g=-0.7,_b=0,_c=8)
+1.923        num_tors_div
+
+Affinity: -3.56455  0.00000 (kcal/mol)
+RMSD: 1.13831
+Refine time 0.00208
+Loop time 0.00242
+/home/limcaoco/opt/prepare_heteroatoms/testdir/outputs/diffdock_output/cleaned_probes/rank3_confidence0.13_NMA.sdf
+   _______  _______ _________ _        _______ 
+  (  ____ \(       )\__   __/( (    /|(  ___  )
+  | (    \/| () () |   ) (   |  \  ( || (   ) |
+  | (_____ | || || |   | |   |   \ | || (___) |
+  (_____  )| |(_)| |   | |   | (\ \) ||  ___  |
+        ) || |   | |   | |   | | \   || (   ) |
+  /\____) || )   ( |___) (___| )  \  || )   ( |
+  \_______)|/     \|\_______/|/    )_)|/     \|
+
+
+smina is based off AutoDock Vina. Please cite appropriately.
+
+Weights      Terms
+-0.035579    gauss(o=0,_w=0.5,_c=8)
+-0.005156    gauss(o=3,_w=2,_c=8)
+0.840245     repulsion(o=0,_c=8)
+-0.035069    hydrophobic(g=0.5,_b=1.5,_c=8)
+-0.587439    non_dir_h_bond(g=-0.7,_b=0,_c=8)
+1.923        num_tors_div
+
+Affinity: -2.92365  0.00000 (kcal/mol)
+RMSD: 0.54443
+Refine time 0.00568
+Loop time 0.00600
+/home/limcaoco/opt/prepare_heteroatoms/testdir/outputs/diffdock_output/cleaned_probes/rank3_confidence0.24_ACE.sdf
+   _______  _______ _________ _        _______ 
+  (  ____ \(       )\__   __/( (    /|(  ___  )
+  | (    \/| () () |   ) (   |  \  ( || (   ) |
+  | (_____ | || || |   | |   |   \ | || (___) |
+  (_____  )| |(_)| |   | |   | (\ \) ||  ___  |
+        ) || |   | |   | |   | | \   || (   ) |
+  /\____) || )   ( |___) (___| )  \  || )   ( |
+  \_______)|/     \|\_______/|/    )_)|/     \|
+
+
+smina is based off AutoDock Vina. Please cite appropriately.
+
+Weights      Terms
+-0.035579    gauss(o=0,_w=0.5,_c=8)
+-0.005156    gauss(o=3,_w=2,_c=8)
+0.840245     repulsion(o=0,_c=8)
+-0.035069    hydrophobic(g=0.5,_b=1.5,_c=8)
+-0.587439    non_dir_h_bond(g=-0.7,_b=0,_c=8)
+1.923        num_tors_div
+
+Affinity: -2.45655  0.00000 (kcal/mol)
+RMSD: 1.19039
+Refine time 0.00539
+Loop time 0.00566
+/home/limcaoco/opt/prepare_heteroatoms/testdir/outputs/diffdock_output/cleaned_probes/rank3_confidence0.30_PYR.sdf
+   _______  _______ _________ _        _______ 
+  (  ____ \(       )\__   __/( (    /|(  ___  )
+  | (    \/| () () |   ) (   |  \  ( || (   ) |
+  | (_____ | || || |   | |   |   \ | || (___) |
+  (_____  )| |(_)| |   | |   | (\ \) ||  ___  |
+        ) || |   | |   | |   | | \   || (   ) |
+  /\____) || )   ( |___) (___| )  \  || )   ( |
+  \_______)|/     \|\_______/|/    )_)|/     \|
+
+
+smina is based off AutoDock Vina. Please cite appropriately.
+
+Weights      Terms
+-0.035579    gauss(o=0,_w=0.5,_c=8)
+-0.005156    gauss(o=3,_w=2,_c=8)
+0.840245     repulsion(o=0,_c=8)
+-0.035069    hydrophobic(g=0.5,_b=1.5,_c=8)
+-0.587439    non_dir_h_bond(g=-0.7,_b=0,_c=8)
+1.923        num_tors_div
+
+Affinity: -2.55192  0.00000 (kcal/mol)
+RMSD: 1.19777
+Refine time 0.00589
+Loop time 0.00623
+/home/limcaoco/opt/prepare_heteroatoms/testdir/outputs/diffdock_output/cleaned_probes/rank3_confidence0.76_IDZ.sdf
+   _______  _______ _________ _        _______ 
+  (  ____ \(       )\__   __/( (    /|(  ___  )
+  | (    \/| () () |   ) (   |  \  ( || (   ) |
+  | (_____ | || || |   | |   |   \ | || (___) |
+  (_____  )| |(_)| |   | |   | (\ \) ||  ___  |
+        ) || |   | |   | |   | | \   || (   ) |
+  /\____) || )   ( |___) (___| )  \  || )   ( |
+  \_______)|/     \|\_______/|/    )_)|/     \|
+
+
+smina is based off AutoDock Vina. Please cite appropriately.
+
+Weights      Terms
+-0.035579    gauss(o=0,_w=0.5,_c=8)
+-0.005156    gauss(o=3,_w=2,_c=8)
+0.840245     repulsion(o=0,_c=8)
+-0.035069    hydrophobic(g=0.5,_b=1.5,_c=8)
+-0.587439    non_dir_h_bond(g=-0.7,_b=0,_c=8)
+1.923        num_tors_div
+
+Affinity: -2.92791  0.00000 (kcal/mol)
+RMSD: 0.72329
+Refine time 0.00488
+Loop time 0.00519
+/home/limcaoco/opt/prepare_heteroatoms/testdir/outputs/diffdock_output/cleaned_probes/rank4_confidence-0.04_IPA.sdf
+   _______  _______ _________ _        _______ 
+  (  ____ \(       )\__   __/( (    /|(  ___  )
+  | (    \/| () () |   ) (   |  \  ( || (   ) |
+  | (_____ | || || |   | |   |   \ | || (___) |
+  (_____  )| |(_)| |   | |   | (\ \) ||  ___  |
+        ) || |   | |   | |   | | \   || (   ) |
+  /\____) || )   ( |___) (___| )  \  || )   ( |
+  \_______)|/     \|\_______/|/    )_)|/     \|
+
+
+smina is based off AutoDock Vina. Please cite appropriately.
+
+Weights      Terms
+-0.035579    gauss(o=0,_w=0.5,_c=8)
+-0.005156    gauss(o=3,_w=2,_c=8)
+0.840245     repulsion(o=0,_c=8)
+-0.035069    hydrophobic(g=0.5,_b=1.5,_c=8)
+-0.587439    non_dir_h_bond(g=-0.7,_b=0,_c=8)
+1.923        num_tors_div
+
+Affinity: -2.71231  0.00000 (kcal/mol)
+RMSD: 0.64326
+Refine time 0.00498
+Loop time 0.00527
+/home/limcaoco/opt/prepare_heteroatoms/testdir/outputs/diffdock_output/cleaned_probes/rank4_confidence-0.50_CHX.sdf
+   _______  _______ _________ _        _______ 
+  (  ____ \(       )\__   __/( (    /|(  ___  )
+  | (    \/| () () |   ) (   |  \  ( || (   ) |
+  | (_____ | || || |   | |   |   \ | || (___) |
+  (_____  )| |(_)| |   | |   | (\ \) ||  ___  |
+        ) || |   | |   | |   | | \   || (   ) |
+  /\____) || )   ( |___) (___| )  \  || )   ( |
+  \_______)|/     \|\_______/|/    )_)|/     \|
+
+
+smina is based off AutoDock Vina. Please cite appropriately.
+
+Weights      Terms
+-0.035579    gauss(o=0,_w=0.5,_c=8)
+-0.005156    gauss(o=3,_w=2,_c=8)
+0.840245     repulsion(o=0,_c=8)
+-0.035069    hydrophobic(g=0.5,_b=1.5,_c=8)
+-0.587439    non_dir_h_bond(g=-0.7,_b=0,_c=8)
+1.923        num_tors_div
+
+Affinity: -3.49083  0.00000 (kcal/mol)
+RMSD: 1.37942
+Refine time 0.00280
+Loop time 0.00311
+/home/limcaoco/opt/prepare_heteroatoms/testdir/outputs/diffdock_output/cleaned_probes/rank4_confidence-0.54_BEN.sdf
+   _______  _______ _________ _        _______ 
+  (  ____ \(       )\__   __/( (    /|(  ___  )
+  | (    \/| () () |   ) (   |  \  ( || (   ) |
+  | (_____ | || || |   | |   |   \ | || (___) |
+  (_____  )| |(_)| |   | |   | (\ \) ||  ___  |
+        ) || |   | |   | |   | | \   || (   ) |
+  /\____) || )   ( |___) (___| )  \  || )   ( |
+  \_______)|/     \|\_______/|/    )_)|/     \|
+
+
+smina is based off AutoDock Vina. Please cite appropriately.
+
+Weights      Terms
+-0.035579    gauss(o=0,_w=0.5,_c=8)
+-0.005156    gauss(o=3,_w=2,_c=8)
+0.840245     repulsion(o=0,_c=8)
+-0.035069    hydrophobic(g=0.5,_b=1.5,_c=8)
+-0.587439    non_dir_h_bond(g=-0.7,_b=0,_c=8)
+1.923        num_tors_div
+
+Affinity: -4.35415  0.00000 (kcal/mol)
+RMSD: 1.58989
+Refine time 0.00219
+Loop time 0.00251
+/home/limcaoco/opt/prepare_heteroatoms/testdir/outputs/diffdock_output/cleaned_probes/rank4_confidence0.07_NMA.sdf
+   _______  _______ _________ _        _______ 
+  (  ____ \(       )\__   __/( (    /|(  ___  )
+  | (    \/| () () |   ) (   |  \  ( || (   ) |
+  | (_____ | || || |   | |   |   \ | || (___) |
+  (_____  )| |(_)| |   | |   | (\ \) ||  ___  |
+        ) || |   | |   | |   | | \   || (   ) |
+  /\____) || )   ( |___) (___| )  \  || )   ( |
+  \_______)|/     \|\_______/|/    )_)|/     \|
+
+
+smina is based off AutoDock Vina. Please cite appropriately.
+
+Weights      Terms
+-0.035579    gauss(o=0,_w=0.5,_c=8)
+-0.005156    gauss(o=3,_w=2,_c=8)
+0.840245     repulsion(o=0,_c=8)
+-0.035069    hydrophobic(g=0.5,_b=1.5,_c=8)
+-0.587439    non_dir_h_bond(g=-0.7,_b=0,_c=8)
+1.923        num_tors_div
+
+Affinity: -2.82793  0.00000 (kcal/mol)
+RMSD: 1.73768
+Refine time 0.00587
+Loop time 0.00619
+/home/limcaoco/opt/prepare_heteroatoms/testdir/outputs/diffdock_output/cleaned_probes/rank4_confidence0.08_PYR.sdf
+   _______  _______ _________ _        _______ 
+  (  ____ \(       )\__   __/( (    /|(  ___  )
+  | (    \/| () () |   ) (   |  \  ( || (   ) |
+  | (_____ | || || |   | |   |   \ | || (___) |
+  (_____  )| |(_)| |   | |   | (\ \) ||  ___  |
+        ) || |   | |   | |   | | \   || (   ) |
+  /\____) || )   ( |___) (___| )  \  || )   ( |
+  \_______)|/     \|\_______/|/    )_)|/     \|
+
+
+smina is based off AutoDock Vina. Please cite appropriately.
+
+Weights      Terms
+-0.035579    gauss(o=0,_w=0.5,_c=8)
+-0.005156    gauss(o=3,_w=2,_c=8)
+0.840245     repulsion(o=0,_c=8)
+-0.035069    hydrophobic(g=0.5,_b=1.5,_c=8)
+-0.587439    non_dir_h_bond(g=-0.7,_b=0,_c=8)
+1.923        num_tors_div
+
+Affinity: -2.67814  0.00000 (kcal/mol)
+RMSD: 1.00583
+Refine time 0.00536
+Loop time 0.00569
+/home/limcaoco/opt/prepare_heteroatoms/testdir/outputs/diffdock_output/cleaned_probes/rank4_confidence0.74_IDZ.sdf
+   _______  _______ _________ _        _______ 
+  (  ____ \(       )\__   __/( (    /|(  ___  )
+  | (    \/| () () |   ) (   |  \  ( || (   ) |
+  | (_____ | || || |   | |   |   \ | || (___) |
+  (_____  )| |(_)| |   | |   | (\ \) ||  ___  |
+        ) || |   | |   | |   | | \   || (   ) |
+  /\____) || )   ( |___) (___| )  \  || )   ( |
+  \_______)|/     \|\_______/|/    )_)|/     \|
+
+
+smina is based off AutoDock Vina. Please cite appropriately.
+
+Weights      Terms
+-0.035579    gauss(o=0,_w=0.5,_c=8)
+-0.005156    gauss(o=3,_w=2,_c=8)
+0.840245     repulsion(o=0,_c=8)
+-0.035069    hydrophobic(g=0.5,_b=1.5,_c=8)
+-0.587439    non_dir_h_bond(g=-0.7,_b=0,_c=8)
+1.923        num_tors_div
+
+Affinity: -2.93758  0.00000 (kcal/mol)
+RMSD: 0.92127
+Refine time 0.00503
+Loop time 0.00535
+/home/limcaoco/opt/prepare_heteroatoms/testdir/outputs/diffdock_output/cleaned_probes/rank5_confidence-0.06_IPA.sdf
+   _______  _______ _________ _        _______ 
+  (  ____ \(       )\__   __/( (    /|(  ___  )
+  | (    \/| () () |   ) (   |  \  ( || (   ) |
+  | (_____ | || || |   | |   |   \ | || (___) |
+  (_____  )| |(_)| |   | |   | (\ \) ||  ___  |
+        ) || |   | |   | |   | | \   || (   ) |
+  /\____) || )   ( |___) (___| )  \  || )   ( |
+  \_______)|/     \|\_______/|/    )_)|/     \|
+
+
+smina is based off AutoDock Vina. Please cite appropriately.
+
+Weights      Terms
+-0.035579    gauss(o=0,_w=0.5,_c=8)
+-0.005156    gauss(o=3,_w=2,_c=8)
+0.840245     repulsion(o=0,_c=8)
+-0.035069    hydrophobic(g=0.5,_b=1.5,_c=8)
+-0.587439    non_dir_h_bond(g=-0.7,_b=0,_c=8)
+1.923        num_tors_div
+
+Affinity: -2.37262  0.00000 (kcal/mol)
+RMSD: 0.99501
+Refine time 0.00471
+Loop time 0.00502
+/home/limcaoco/opt/prepare_heteroatoms/testdir/outputs/diffdock_output/cleaned_probes/rank5_confidence-0.52_CHX.sdf
+   _______  _______ _________ _        _______ 
+  (  ____ \(       )\__   __/( (    /|(  ___  )
+  | (    \/| () () |   ) (   |  \  ( || (   ) |
+  | (_____ | || || |   | |   |   \ | || (___) |
+  (_____  )| |(_)| |   | |   | (\ \) ||  ___  |
+        ) || |   | |   | |   | | \   || (   ) |
+  /\____) || )   ( |___) (___| )  \  || )   ( |
+  \_______)|/     \|\_______/|/    )_)|/     \|
+
+
+smina is based off AutoDock Vina. Please cite appropriately.
+
+Weights      Terms
+-0.035579    gauss(o=0,_w=0.5,_c=8)
+-0.005156    gauss(o=3,_w=2,_c=8)
+0.840245     repulsion(o=0,_c=8)
+-0.035069    hydrophobic(g=0.5,_b=1.5,_c=8)
+-0.587439    non_dir_h_bond(g=-0.7,_b=0,_c=8)
+1.923        num_tors_div
+
+Affinity: -3.82951  0.00000 (kcal/mol)
+RMSD: 1.82222
+Refine time 0.00203
+Loop time 0.00232
+/home/limcaoco/opt/prepare_heteroatoms/testdir/outputs/diffdock_output/cleaned_probes/rank5_confidence-0.59_BEN.sdf
+   _______  _______ _________ _        _______ 
+  (  ____ \(       )\__   __/( (    /|(  ___  )
+  | (    \/| () () |   ) (   |  \  ( || (   ) |
+  | (_____ | || || |   | |   |   \ | || (___) |
+  (_____  )| |(_)| |   | |   | (\ \) ||  ___  |
+        ) || |   | |   | |   | | \   || (   ) |
+  /\____) || )   ( |___) (___| )  \  || )   ( |
+  \_______)|/     \|\_______/|/    )_)|/     \|
+
+
+smina is based off AutoDock Vina. Please cite appropriately.
+
+Weights      Terms
+-0.035579    gauss(o=0,_w=0.5,_c=8)
+-0.005156    gauss(o=3,_w=2,_c=8)
+0.840245     repulsion(o=0,_c=8)
+-0.035069    hydrophobic(g=0.5,_b=1.5,_c=8)
+-0.587439    non_dir_h_bond(g=-0.7,_b=0,_c=8)
+1.923        num_tors_div
+
+Affinity: -4.43254  0.00000 (kcal/mol)
+RMSD: 1.54397
+Refine time 0.00203
+Loop time 0.00235
+/home/limcaoco/opt/prepare_heteroatoms/testdir/outputs/diffdock_output/cleaned_probes/rank5_confidence0.22_ACE.sdf
+   _______  _______ _________ _        _______ 
+  (  ____ \(       )\__   __/( (    /|(  ___  )
+  | (    \/| () () |   ) (   |  \  ( || (   ) |
+  | (_____ | || || |   | |   |   \ | || (___) |
+  (_____  )| |(_)| |   | |   | (\ \) ||  ___  |
+        ) || |   | |   | |   | | \   || (   ) |
+  /\____) || )   ( |___) (___| )  \  || )   ( |
+  \_______)|/     \|\_______/|/    )_)|/     \|
+
+
+smina is based off AutoDock Vina. Please cite appropriately.
+
+Weights      Terms
+-0.035579    gauss(o=0,_w=0.5,_c=8)
+-0.005156    gauss(o=3,_w=2,_c=8)
+0.840245     repulsion(o=0,_c=8)
+-0.035069    hydrophobic(g=0.5,_b=1.5,_c=8)
+-0.587439    non_dir_h_bond(g=-0.7,_b=0,_c=8)
+1.923        num_tors_div
+
+Affinity: -2.45652  0.00000 (kcal/mol)
+RMSD: 1.17746
+Refine time 0.00561
+Loop time 0.00591
+/home/limcaoco/opt/prepare_heteroatoms/testdir/outputs/diffdock_output/cleaned_probes/rank5_confidence0.45_IDZ.sdf
+   _______  _______ _________ _        _______ 
+  (  ____ \(       )\__   __/( (    /|(  ___  )
+  | (    \/| () () |   ) (   |  \  ( || (   ) |
+  | (_____ | || || |   | |   |   \ | || (___) |
+  (_____  )| |(_)| |   | |   | (\ \) ||  ___  |
+        ) || |   | |   | |   | | \   || (   ) |
+  /\____) || )   ( |___) (___| )  \  || )   ( |
+  \_______)|/     \|\_______/|/    )_)|/     \|
+
+
+smina is based off AutoDock Vina. Please cite appropriately.
+
+Weights      Terms
+-0.035579    gauss(o=0,_w=0.5,_c=8)
+-0.005156    gauss(o=3,_w=2,_c=8)
+0.840245     repulsion(o=0,_c=8)
+-0.035069    hydrophobic(g=0.5,_b=1.5,_c=8)
+-0.587439    non_dir_h_bond(g=-0.7,_b=0,_c=8)
+1.923        num_tors_div
+
+Affinity: -2.88215  0.00000 (kcal/mol)
+RMSD: 1.20948
+Refine time 0.00526
+Loop time 0.00559
+/home/limcaoco/opt/prepare_heteroatoms/testdir/outputs/diffdock_output/cleaned_probes/rank6_confidence-0.11_IPA.sdf
+   _______  _______ _________ _        _______ 
+  (  ____ \(       )\__   __/( (    /|(  ___  )
+  | (    \/| () () |   ) (   |  \  ( || (   ) |
+  | (_____ | || || |   | |   |   \ | || (___) |
+  (_____  )| |(_)| |   | |   | (\ \) ||  ___  |
+        ) || |   | |   | |   | | \   || (   ) |
+  /\____) || )   ( |___) (___| )  \  || )   ( |
+  \_______)|/     \|\_______/|/    )_)|/     \|
+
+
+smina is based off AutoDock Vina. Please cite appropriately.
+
+Weights      Terms
+-0.035579    gauss(o=0,_w=0.5,_c=8)
+-0.005156    gauss(o=3,_w=2,_c=8)
+0.840245     repulsion(o=0,_c=8)
+-0.035069    hydrophobic(g=0.5,_b=1.5,_c=8)
+-0.587439    non_dir_h_bond(g=-0.7,_b=0,_c=8)
+1.923        num_tors_div
+
+Affinity: -2.35018  0.00000 (kcal/mol)
+RMSD: 0.94751
+Refine time 0.00460
+Loop time 0.00490
+/home/limcaoco/opt/prepare_heteroatoms/testdir/outputs/diffdock_output/cleaned_probes/rank6_confidence-0.61_BEN.sdf
+   _______  _______ _________ _        _______ 
+  (  ____ \(       )\__   __/( (    /|(  ___  )
+  | (    \/| () () |   ) (   |  \  ( || (   ) |
+  | (_____ | || || |   | |   |   \ | || (___) |
+  (_____  )| |(_)| |   | |   | (\ \) ||  ___  |
+        ) || |   | |   | |   | | \   || (   ) |
+  /\____) || )   ( |___) (___| )  \  || )   ( |
+  \_______)|/     \|\_______/|/    )_)|/     \|
+
+
+smina is based off AutoDock Vina. Please cite appropriately.
+
+Weights      Terms
+-0.035579    gauss(o=0,_w=0.5,_c=8)
+-0.005156    gauss(o=3,_w=2,_c=8)
+0.840245     repulsion(o=0,_c=8)
+-0.035069    hydrophobic(g=0.5,_b=1.5,_c=8)
+-0.587439    non_dir_h_bond(g=-0.7,_b=0,_c=8)
+1.923        num_tors_div
+
+Affinity: -4.44032  0.00000 (kcal/mol)
+RMSD: 1.61334
+Refine time 0.00209
+Loop time 0.00240
+/home/limcaoco/opt/prepare_heteroatoms/testdir/outputs/diffdock_output/cleaned_probes/rank6_confidence0.02_NMA.sdf
+   _______  _______ _________ _        _______ 
+  (  ____ \(       )\__   __/( (    /|(  ___  )
+  | (    \/| () () |   ) (   |  \  ( || (   ) |
+  | (_____ | || || |   | |   |   \ | || (___) |
+  (_____  )| |(_)| |   | |   | (\ \) ||  ___  |
+        ) || |   | |   | |   | | \   || (   ) |
+  /\____) || )   ( |___) (___| )  \  || )   ( |
+  \_______)|/     \|\_______/|/    )_)|/     \|
+
+
+smina is based off AutoDock Vina. Please cite appropriately.
+
+Weights      Terms
+-0.035579    gauss(o=0,_w=0.5,_c=8)
+-0.005156    gauss(o=3,_w=2,_c=8)
+0.840245     repulsion(o=0,_c=8)
+-0.035069    hydrophobic(g=0.5,_b=1.5,_c=8)
+-0.587439    non_dir_h_bond(g=-0.7,_b=0,_c=8)
+1.923        num_tors_div
+
+Affinity: -2.90363  0.00000 (kcal/mol)
+RMSD: 1.06427
+Refine time 0.00602
+Loop time 0.00634
+/home/limcaoco/opt/prepare_heteroatoms/testdir/outputs/diffdock_output/cleaned_probes/rank6_confidence0.07_PYR.sdf
+   _______  _______ _________ _        _______ 
+  (  ____ \(       )\__   __/( (    /|(  ___  )
+  | (    \/| () () |   ) (   |  \  ( || (   ) |
+  | (_____ | || || |   | |   |   \ | || (___) |
+  (_____  )| |(_)| |   | |   | (\ \) ||  ___  |
+        ) || |   | |   | |   | | \   || (   ) |
+  /\____) || )   ( |___) (___| )  \  || )   ( |
+  \_______)|/     \|\_______/|/    )_)|/     \|
+
+
+smina is based off AutoDock Vina. Please cite appropriately.
+
+Weights      Terms
+-0.035579    gauss(o=0,_w=0.5,_c=8)
+-0.005156    gauss(o=3,_w=2,_c=8)
+0.840245     repulsion(o=0,_c=8)
+-0.035069    hydrophobic(g=0.5,_b=1.5,_c=8)
+-0.587439    non_dir_h_bond(g=-0.7,_b=0,_c=8)
+1.923        num_tors_div
+
+Affinity: -3.20396  0.00000 (kcal/mol)
+RMSD: 1.25484
+Refine time 0.00474
+Loop time 0.00506
+/home/limcaoco/opt/prepare_heteroatoms/testdir/outputs/diffdock_output/cleaned_probes/rank6_confidence0.19_ACE.sdf
+   _______  _______ _________ _        _______ 
+  (  ____ \(       )\__   __/( (    /|(  ___  )
+  | (    \/| () () |   ) (   |  \  ( || (   ) |
+  | (_____ | || || |   | |   |   \ | || (___) |
+  (_____  )| |(_)| |   | |   | (\ \) ||  ___  |
+        ) || |   | |   | |   | | \   || (   ) |
+  /\____) || )   ( |___) (___| )  \  || )   ( |
+  \_______)|/     \|\_______/|/    )_)|/     \|
+
+
+smina is based off AutoDock Vina. Please cite appropriately.
+
+Weights      Terms
+-0.035579    gauss(o=0,_w=0.5,_c=8)
+-0.005156    gauss(o=3,_w=2,_c=8)
+0.840245     repulsion(o=0,_c=8)
+-0.035069    hydrophobic(g=0.5,_b=1.5,_c=8)
+-0.587439    non_dir_h_bond(g=-0.7,_b=0,_c=8)
+1.923        num_tors_div
+
+Affinity: -2.44992  0.00000 (kcal/mol)
+RMSD: 1.26386
+Refine time 0.00492
+Loop time 0.00520
+/home/limcaoco/opt/prepare_heteroatoms/testdir/outputs/diffdock_output/cleaned_probes/rank6_confidence0.43_IDZ.sdf
+   _______  _______ _________ _        _______ 
+  (  ____ \(       )\__   __/( (    /|(  ___  )
+  | (    \/| () () |   ) (   |  \  ( || (   ) |
+  | (_____ | || || |   | |   |   \ | || (___) |
+  (_____  )| |(_)| |   | |   | (\ \) ||  ___  |
+        ) || |   | |   | |   | | \   || (   ) |
+  /\____) || )   ( |___) (___| )  \  || )   ( |
+  \_______)|/     \|\_______/|/    )_)|/     \|
+
+
+smina is based off AutoDock Vina. Please cite appropriately.
+
+Weights      Terms
+-0.035579    gauss(o=0,_w=0.5,_c=8)
+-0.005156    gauss(o=3,_w=2,_c=8)
+0.840245     repulsion(o=0,_c=8)
+-0.035069    hydrophobic(g=0.5,_b=1.5,_c=8)
+-0.587439    non_dir_h_bond(g=-0.7,_b=0,_c=8)
+1.923        num_tors_div
+
+Affinity: -2.57381  0.00000 (kcal/mol)
+RMSD: 0.46710
+Refine time 0.00468
+Loop time 0.00502
+/home/limcaoco/opt/prepare_heteroatoms/testdir/outputs/diffdock_output/cleaned_probes/rank7_confidence-0.12_IPA.sdf
+   _______  _______ _________ _        _______ 
+  (  ____ \(       )\__   __/( (    /|(  ___  )
+  | (    \/| () () |   ) (   |  \  ( || (   ) |
+  | (_____ | || || |   | |   |   \ | || (___) |
+  (_____  )| |(_)| |   | |   | (\ \) ||  ___  |
+        ) || |   | |   | |   | | \   || (   ) |
+  /\____) || )   ( |___) (___| )  \  || )   ( |
+  \_______)|/     \|\_______/|/    )_)|/     \|
+
+
+smina is based off AutoDock Vina. Please cite appropriately.
+
+Weights      Terms
+-0.035579    gauss(o=0,_w=0.5,_c=8)
+-0.005156    gauss(o=3,_w=2,_c=8)
+0.840245     repulsion(o=0,_c=8)
+-0.035069    hydrophobic(g=0.5,_b=1.5,_c=8)
+-0.587439    non_dir_h_bond(g=-0.7,_b=0,_c=8)
+1.923        num_tors_div
+
+Affinity: -2.78661  0.00000 (kcal/mol)
+RMSD: 2.19301
+Refine time 0.00442
+Loop time 0.00472
+/home/limcaoco/opt/prepare_heteroatoms/testdir/outputs/diffdock_output/cleaned_probes/rank7_confidence-0.62_BEN.sdf
+   _______  _______ _________ _        _______ 
+  (  ____ \(       )\__   __/( (    /|(  ___  )
+  | (    \/| () () |   ) (   |  \  ( || (   ) |
+  | (_____ | || || |   | |   |   \ | || (___) |
+  (_____  )| |(_)| |   | |   | (\ \) ||  ___  |
+        ) || |   | |   | |   | | \   || (   ) |
+  /\____) || )   ( |___) (___| )  \  || )   ( |
+  \_______)|/     \|\_______/|/    )_)|/     \|
+
+
+smina is based off AutoDock Vina. Please cite appropriately.
+
+Weights      Terms
+-0.035579    gauss(o=0,_w=0.5,_c=8)
+-0.005156    gauss(o=3,_w=2,_c=8)
+0.840245     repulsion(o=0,_c=8)
+-0.035069    hydrophobic(g=0.5,_b=1.5,_c=8)
+-0.587439    non_dir_h_bond(g=-0.7,_b=0,_c=8)
+1.923        num_tors_div
+
+Affinity: -4.43549  0.00000 (kcal/mol)
+RMSD: 2.84546
+Refine time 0.00349
+Loop time 0.00380
+/home/limcaoco/opt/prepare_heteroatoms/testdir/outputs/diffdock_output/cleaned_probes/rank7_confidence0.43_IDZ.sdf
+   _______  _______ _________ _        _______ 
+  (  ____ \(       )\__   __/( (    /|(  ___  )
+  | (    \/| () () |   ) (   |  \  ( || (   ) |
+  | (_____ | || || |   | |   |   \ | || (___) |
+  (_____  )| |(_)| |   | |   | (\ \) ||  ___  |
+        ) || |   | |   | |   | | \   || (   ) |
+  /\____) || )   ( |___) (___| )  \  || )   ( |
+  \_______)|/     \|\_______/|/    )_)|/     \|
+
+
+smina is based off AutoDock Vina. Please cite appropriately.
+
+Weights      Terms
+-0.035579    gauss(o=0,_w=0.5,_c=8)
+-0.005156    gauss(o=3,_w=2,_c=8)
+0.840245     repulsion(o=0,_c=8)
+-0.035069    hydrophobic(g=0.5,_b=1.5,_c=8)
+-0.587439    non_dir_h_bond(g=-0.7,_b=0,_c=8)
+1.923        num_tors_div
+
+Affinity: -2.88208  0.00000 (kcal/mol)
+RMSD: 1.66078
+Refine time 0.00484
+Loop time 0.00513
+/home/limcaoco/opt/prepare_heteroatoms/testdir/outputs/diffdock_output/cleaned_probes/rank8_confidence-0.68_BEN.sdf
+   _______  _______ _________ _        _______ 
+  (  ____ \(       )\__   __/( (    /|(  ___  )
+  | (    \/| () () |   ) (   |  \  ( || (   ) |
+  | (_____ | || || |   | |   |   \ | || (___) |
+  (_____  )| |(_)| |   | |   | (\ \) ||  ___  |
+        ) || |   | |   | |   | | \   || (   ) |
+  /\____) || )   ( |___) (___| )  \  || )   ( |
+  \_______)|/     \|\_______/|/    )_)|/     \|
+
+
+smina is based off AutoDock Vina. Please cite appropriately.
+
+Weights      Terms
+-0.035579    gauss(o=0,_w=0.5,_c=8)
+-0.005156    gauss(o=3,_w=2,_c=8)
+0.840245     repulsion(o=0,_c=8)
+-0.035069    hydrophobic(g=0.5,_b=1.5,_c=8)
+-0.587439    non_dir_h_bond(g=-0.7,_b=0,_c=8)
+1.923        num_tors_div
+
+Affinity: -4.42642  0.00000 (kcal/mol)
+RMSD: 1.75196
+Refine time 0.00234
+Loop time 0.00264
+/home/limcaoco/opt/prepare_heteroatoms/testdir/outputs/diffdock_output/cleaned_probes/rank8_confidence0.04_PYR.sdf
+   _______  _______ _________ _        _______ 
+  (  ____ \(       )\__   __/( (    /|(  ___  )
+  | (    \/| () () |   ) (   |  \  ( || (   ) |
+  | (_____ | || || |   | |   |   \ | || (___) |
+  (_____  )| |(_)| |   | |   | (\ \) ||  ___  |
+        ) || |   | |   | |   | | \   || (   ) |
+  /\____) || )   ( |___) (___| )  \  || )   ( |
+  \_______)|/     \|\_______/|/    )_)|/     \|
+
+
+smina is based off AutoDock Vina. Please cite appropriately.
+
+Weights      Terms
+-0.035579    gauss(o=0,_w=0.5,_c=8)
+-0.005156    gauss(o=3,_w=2,_c=8)
+0.840245     repulsion(o=0,_c=8)
+-0.035069    hydrophobic(g=0.5,_b=1.5,_c=8)
+-0.587439    non_dir_h_bond(g=-0.7,_b=0,_c=8)
+1.923        num_tors_div
+
+Affinity: -3.20978  0.00000 (kcal/mol)
+RMSD: 1.05205
+Refine time 0.00472
+Loop time 0.00506
+/home/limcaoco/opt/prepare_heteroatoms/testdir/outputs/diffdock_output/cleaned_probes/rank8_confidence0.39_IDZ.sdf
+   _______  _______ _________ _        _______ 
+  (  ____ \(       )\__   __/( (    /|(  ___  )
+  | (    \/| () () |   ) (   |  \  ( || (   ) |
+  | (_____ | || || |   | |   |   \ | || (___) |
+  (_____  )| |(_)| |   | |   | (\ \) ||  ___  |
+        ) || |   | |   | |   | | \   || (   ) |
+  /\____) || )   ( |___) (___| )  \  || )   ( |
+  \_______)|/     \|\_______/|/    )_)|/     \|
+
+
+smina is based off AutoDock Vina. Please cite appropriately.
+
+Weights      Terms
+-0.035579    gauss(o=0,_w=0.5,_c=8)
+-0.005156    gauss(o=3,_w=2,_c=8)
+0.840245     repulsion(o=0,_c=8)
+-0.035069    hydrophobic(g=0.5,_b=1.5,_c=8)
+-0.587439    non_dir_h_bond(g=-0.7,_b=0,_c=8)
+1.923        num_tors_div
+
+Affinity: -2.51179  0.00000 (kcal/mol)
+RMSD: 1.28715
+Refine time 0.00513
+Loop time 0.00545
+/home/limcaoco/opt/prepare_heteroatoms/testdir/outputs/diffdock_output/cleaned_probes/rank9_confidence-0.31_IPA.sdf
+   _______  _______ _________ _        _______ 
+  (  ____ \(       )\__   __/( (    /|(  ___  )
+  | (    \/| () () |   ) (   |  \  ( || (   ) |
+  | (_____ | || || |   | |   |   \ | || (___) |
+  (_____  )| |(_)| |   | |   | (\ \) ||  ___  |
+        ) || |   | |   | |   | | \   || (   ) |
+  /\____) || )   ( |___) (___| )  \  || )   ( |
+  \_______)|/     \|\_______/|/    )_)|/     \|
+
+
+smina is based off AutoDock Vina. Please cite appropriately.
+
+Weights      Terms
+-0.035579    gauss(o=0,_w=0.5,_c=8)
+-0.005156    gauss(o=3,_w=2,_c=8)
+0.840245     repulsion(o=0,_c=8)
+-0.035069    hydrophobic(g=0.5,_b=1.5,_c=8)
+-0.587439    non_dir_h_bond(g=-0.7,_b=0,_c=8)
+1.923        num_tors_div
+
+Affinity: -2.24269  0.00000 (kcal/mol)
+RMSD: 1.19165
+Refine time 0.00471
+Loop time 0.00501
+/home/limcaoco/opt/prepare_heteroatoms/testdir/outputs/diffdock_output/cleaned_probes/rank9_confidence-1.08_BEN.sdf
+   _______  _______ _________ _        _______ 
+  (  ____ \(       )\__   __/( (    /|(  ___  )
+  | (    \/| () () |   ) (   |  \  ( || (   ) |
+  | (_____ | || || |   | |   |   \ | || (___) |
+  (_____  )| |(_)| |   | |   | (\ \) ||  ___  |
+        ) || |   | |   | |   | | \   || (   ) |
+  /\____) || )   ( |___) (___| )  \  || )   ( |
+  \_______)|/     \|\_______/|/    )_)|/     \|
+
+
+smina is based off AutoDock Vina. Please cite appropriately.
+
+Weights      Terms
+-0.035579    gauss(o=0,_w=0.5,_c=8)
+-0.005156    gauss(o=3,_w=2,_c=8)
+0.840245     repulsion(o=0,_c=8)
+-0.035069    hydrophobic(g=0.5,_b=1.5,_c=8)
+-0.587439    non_dir_h_bond(g=-0.7,_b=0,_c=8)
+1.923        num_tors_div
+
+Affinity: -2.03589  0.00000 (kcal/mol)
+RMSD: 1.09164
+Refine time 0.00166
+Loop time 0.00198
+rank1_confidence-4.44032_BEN.sdf
+rank2_confidence-4.43549_BEN.sdf
+rank3_confidence-4.43254_BEN.sdf
+rank4_confidence-4.42642_BEN.sdf
+rank5_confidence-4.40435_BEN.sdf
+rank6_confidence-4.35415_BEN.sdf
+rank7_confidence-3.96277_BEN.sdf
+rank8_confidence-3.82951_CHX.sdf
+rank9_confidence-3.56455_CHX.sdf
+rank10_confidence-3.49083_CHX.sdf
+rank11_confidence-3.22458_CHX.sdf
+rank12_confidence-3.22458_CHX.sdf
+rank13_confidence-3.20978_PYR.sdf
+rank14_confidence-3.20396_PYR.sdf
+rank15_confidence-3.07544_BEN.sdf
+rank16_confidence-3.07544_BEN.sdf
+rank17_confidence-2.96800_IDZ.sdf
+rank18_confidence-2.96800_IDZ.sdf
+rank19_confidence-2.93758_IDZ.sdf
+rank20_confidence-2.92791_IDZ.sdf
+rank21_confidence-2.92385_NMA.sdf
+rank22_confidence-2.92365_NMA.sdf
+rank23_confidence-2.90363_NMA.sdf
+rank24_confidence-2.88841_CHX.sdf
+rank25_confidence-2.88215_IDZ.sdf
+rank26_confidence-2.88208_IDZ.sdf
+rank27_confidence-2.82793_NMA.sdf
+rank28_confidence-2.78661_IPA.sdf
+rank29_confidence-2.76938_IDZ.sdf
+rank30_confidence-2.71231_IPA.sdf
+rank31_confidence-2.67814_PYR.sdf
+rank32_confidence-2.57769_PYR.sdf
+rank33_confidence-2.57381_IDZ.sdf
+rank34_confidence-2.56164_PYR.sdf
+rank35_confidence-2.56164_PYR.sdf
+rank36_confidence-2.55192_PYR.sdf
+rank37_confidence-2.51179_IDZ.sdf
+rank38_confidence-2.46526_IPA.sdf
+rank39_confidence-2.46526_IPA.sdf
+rank40_confidence-2.45655_ACE.sdf
+rank41_confidence-2.45652_ACE.sdf
+rank42_confidence-2.45648_ACE.sdf
+rank43_confidence-2.44992_ACE.sdf
+rank44_confidence-2.37262_IPA.sdf
+rank45_confidence-2.35018_IPA.sdf
+rank46_confidence-2.24269_IPA.sdf
+rank47_confidence-2.03589_BEN.sdf
+rank48_confidence-1.58841_IDZ.sdf
+rank49_confidence smina_affinity_name.sdf
+Now using /home/limcaoco/opt/prepare_heteroatoms/testdir/outputs/diffdock_output/cleaned_probes/SMINA_rerank
+rank1_confidence-4.44032_BEN.sdf
+rank29_confidence-2.76938_IDZ.sdf : in cube
+rank26_confidence-2.88208_IDZ.sdf : in cube
+rank43_confidence-2.44992_ACE.sdf : in cube
+rank8_confidence-3.82951_CHX.sdf : in cube
+rank10_confidence-3.49083_CHX.sdf : not in cube
+rank22_confidence-2.92365_NMA.sdf : in cube
+rank3_confidence-4.43254_BEN.sdf : in cube
+rank25_confidence-2.88215_IDZ.sdf : in cube
+rank33_confidence-2.57381_IDZ.sdf : in cube
+rank34_confidence-2.56164_PYR.sdf : in cube
+rank40_confidence-2.45655_ACE.sdf : in cube
+rank23_confidence-2.90363_NMA.sdf : in cube
+rank44_confidence-2.37262_IPA.sdf : in cube
+rank37_confidence-2.51179_IDZ.sdf : in cube
+rank36_confidence-2.55192_PYR.sdf : in cube
+rank24_confidence-2.88841_CHX.sdf : not in cube
+rank28_confidence-2.78661_IPA.sdf : in cube
+rank11_confidence-3.22458_CHX.sdf : in cube
+rank7_confidence-3.96277_BEN.sdf : in cube
+rank1_confidence-4.44032_BEN.sdf : in cube
+rank21_confidence-2.92385_NMA.sdf : in cube
+rank45_confidence-2.35018_IPA.sdf : in cube
+rank39_confidence-2.46526_IPA.sdf : in cube
+rank13_confidence-3.20978_PYR.sdf : in cube
+rank42_confidence-2.45648_ACE.sdf : in cube
+rank9_confidence-3.56455_CHX.sdf : in cube
+rank46_confidence-2.24269_IPA.sdf : in cube
+rank5_confidence-4.40435_BEN.sdf : in cube
+rank38_confidence-2.46526_IPA.sdf : in cube
+rank41_confidence-2.45652_ACE.sdf : in cube
+rank35_confidence-2.56164_PYR.sdf : in cube
+rank12_confidence-3.22458_CHX.sdf : in cube
+rank27_confidence-2.82793_NMA.sdf : in cube
+rank32_confidence-2.57769_PYR.sdf : in cube
+rank47_confidence-2.03589_BEN.sdf : not in cube
+rank2_confidence-4.43549_BEN.sdf : in cube
+rank6_confidence-4.35415_BEN.sdf : in cube
+rank20_confidence-2.92791_IDZ.sdf : in cube
+rank19_confidence-2.93758_IDZ.sdf : in cube
+rank31_confidence-2.67814_PYR.sdf : in cube
+rank48_confidence-1.58841_IDZ.sdf : not in cube
+rank15_confidence-3.07544_BEN.sdf : in cube
+rank30_confidence-2.71231_IPA.sdf : in cube
+rank17_confidence-2.96800_IDZ.sdf : in cube
+rank18_confidence-2.96800_IDZ.sdf : in cube
+rank4_confidence-4.42642_BEN.sdf : in cube
+rank16_confidence-3.07544_BEN.sdf : in cube
+rank14_confidence-3.20396_PYR.sdf : in cube
+prepare_hetatms.sh: LOG: Finished preparing HetAtoms!
+DIFFDOCK_PROBE_WIZARD: Done

@@ -1,0 +1,62 @@
+#!/bin/bash
+
+# written by Jose Miguel Limcaoco limcaoco@umich.edu
+
+SCRIPT_NAME=$(basename "$0")
+###########################################################
+#input handeling
+while  getopts d FLAG
+do
+    case "${FLAG}" in
+	d) prediction_dir=${OPTARG};;
+    esac
+done
+
+
+if [ -z ${prediction_dir} ]; then
+    echo "${SCRIPT_NAME}: ERROR: no prediction directory given exiting..."
+    exit
+fi
+
+
+###########################################################
+
+
+SMINA_DIR=${parent_dir}/smina
+
+echo "original_name, smina_affinity" > smina_relax_affinities.csv
+
+echo "${prediction_dir}"
+for POSE in ${prediction_dir}/*.sdf; do
+    echo "${POSE}"
+    
+    ${SMINA_DIR}/smina --receptor ${prediction_dir}/*.pdb \
+		    --ligand ${POSE} \
+		    --minimize \
+		    --log smina_relax.log
+
+   
+    AFFINITY=$(grep "^Affinity: " smina_relax.log)
+    echo "${POSE},${AFFINITY}" >> smina_relax_affinities.csv
+done
+
+#find new order...
+sort -t',' -k2 -n smina_relax_affinities.csv > resort_temp.csv
+
+#now resorting files...
+mkdir -p ${prediction_dir}/SMINA_rerank
+cp ${prediction_dir}/*.pdb ${prediction_dir}/SMINA_rerank/. 
+
+read header < resort_temp.csv
+
+RANK=1
+while IFS=',' read -r POSE, AFFINITY; do
+
+    NEW_FILE="rank${RANK}_affinity${AFFINITY}.sdf"
+    cp ${POSE} ${prediction_dir}/SMINA_rerank/${NEW_FILE}
+
+    ((rank++))
+done < resort_temp.csv 
+
+#cleaning everything up...
+#rm *.csv
